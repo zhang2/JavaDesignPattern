@@ -1,4 +1,4 @@
-package com.zjg.pkg.states.demo;
+package com.zjg.states.demo;
 
 public class StatusB implements IStatus {
 

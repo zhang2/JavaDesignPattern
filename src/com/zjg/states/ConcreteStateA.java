@@ -1,4 +1,4 @@
-package com.zjg.pkg.states;
+package com.zjg.states;
 
 public class ConcreteStateA implements IState {
 

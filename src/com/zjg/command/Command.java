@@ -1,4 +1,4 @@
-package com.zjg.pkg.command;
+package com.zjg.command;
 
 public interface Command {
 	public void execute();
