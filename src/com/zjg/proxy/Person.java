@@ -1,4 +1,4 @@
-package com.zjg.Proxy;
+package com.zjg.proxy;
 
 /**
  * 

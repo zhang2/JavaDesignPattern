@@ -1,11 +1,11 @@
-package com.zjg.pkg.command;
+package com.zjg.command;
 
-public class ConcreteCommandA implements Command {
+public class ConcreteCommandB implements Command{
 
 	private Receiver receiver;
 	
 	
-	public ConcreteCommandA(Receiver receiver) {
+	public ConcreteCommandB(Receiver receiver) {
 		super();
 		this.receiver = receiver;
 	}
@@ -13,15 +13,14 @@ public class ConcreteCommandA implements Command {
 	@Override
 	public void execute() {
 		// TODO Auto-generated method stub
-		this.receiver.turnOn();
+		this.receiver.turnOff();
 		
 	}
 
 	@Override
 	public void undo() {
 		// TODO Auto-generated method stub
-		this.receiver.turnOff();
-		
+		this.receiver.turnOn();
 	}
 
 }
