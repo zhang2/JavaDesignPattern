@@ -5,6 +5,8 @@ package com.zjg.prototypePattern;
 
 /**
  * @author apple
+ * 
+ * 原型模式
  *
  */
 public class Client {
@@ -18,3 +20,15 @@ public class Client {
 	}
 
 }
+
+
+
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
