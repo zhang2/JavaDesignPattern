@@ -9,7 +9,7 @@ package com.zjg.simpleFactoryPattern;
  */
 public class Factory {
 	
-	public Fruit factoryMehtod(String arg) {
+	public static Fruit factoryMehtod(String arg) {
 		if (arg.equals("apple")) {
 			return new Apple();
 		} else if (arg.equals("peach")) {
