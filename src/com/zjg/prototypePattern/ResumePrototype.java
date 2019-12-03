@@ -10,6 +10,7 @@ package com.zjg.prototypePattern;
  *
  */
 public abstract class ResumePrototype {
+	
 	String name;
 	
 	String school;
@@ -17,4 +18,6 @@ public abstract class ResumePrototype {
 	String introduction;
 	
 	public abstract void hobby();
+	
+	public abstract ResumePrototype clone();
 }
