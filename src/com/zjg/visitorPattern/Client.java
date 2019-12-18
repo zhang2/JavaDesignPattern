@@ -26,8 +26,7 @@ public class Client {
 
         blogs.accept(webVisit);
         blogs.accept(wapVisit);
-
-//        System.out.println("\n");
+        
 	}
 
 }
