@@ -1,4 +1,4 @@
-package om.zjg.abstractFactoryPattern.demo;
+package com.zjg.abstractFactoryPattern.demo;
 
 public class AppleTablets extends Tablets {
 	public AppleTablets() {

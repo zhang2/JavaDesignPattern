@@ -1,7 +1,7 @@
 /**
  * 
  */
-package om.zjg.abstractFactoryPattern.demo;
+package com.zjg.abstractFactoryPattern.demo;
 
 /**
  * @author apple
