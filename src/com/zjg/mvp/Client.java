@@ -3,7 +3,11 @@ package com.zjg.mvp;
 public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		Presenter presenter = new Presenter(new View());
+		presenter.requestData();
+		presenter.doSomething();
+		
 	}
 }
 
